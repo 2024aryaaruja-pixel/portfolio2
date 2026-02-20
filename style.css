@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fcfaf7;
+    color: #2d3436;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #d4e2d4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.designation {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #5d6d5d;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-color: #f2e7dc;
+    box-shadow: 10px 10px 0px #f2e7dc;
+    border: 2px solid #ffffff;
+    display: block;
+}
+
+.info-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    background-color: #fff9f5;
+}
+
+.info-card h3 {
+    color: #d4a373;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f0ead2;
+    display: inline-block;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 6px;
+    border: none;
+    border-radius: 6px;
+    background-color: #d4a373;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b5835a;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+li {
+    margin: 6px 0;
+}
+
+footer {
+    background-color: #2d3436;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #a8dadc;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
